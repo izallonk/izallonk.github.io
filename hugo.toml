@@ -1,0 +1,9 @@
+title = 'My New Hugo Site'
+
+
+[menu]
+    [[menu.main]]
+        identifier = "posts"
+        name = "test"
+        url = "/"
+        weight = 10

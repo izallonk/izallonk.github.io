@@ -1,0 +1,47 @@
+body {
+  max-width : 640px;
+  margin : 0 auto;
+  padding : 4rem 2rem;
+  background-color : black;
+  font-family: 'Courier New', monospace;
+  font-color : white;
+}
+  h1 {
+    color: Blue;
+  }
+  p{
+    color : white;
+  }
+  time{
+    color : white;
+  }
+  a{
+    color : yellow;
+    text-decoration: none; 
+  }
+  a:hover{
+    color : white;
+  }
+  a:visited{
+    color : blue;
+  }
+  
+  li::marker {
+  color: white;
+  }
+  span {
+    display: inline-block;
+    
+  }
+  
+
+@media screen and (max-width: 800px) {
+  body {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    color: Red;
+  }
+}
